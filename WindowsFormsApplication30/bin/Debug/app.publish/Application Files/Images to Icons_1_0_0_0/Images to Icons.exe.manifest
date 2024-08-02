@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Images to Icons.exe" version="1.0.0.0" publicKeyToken="89e33473a284a078" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="32.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Images to Icons" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Images to Icons.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Images to Icons.exe" size="19000">
+      <assemblyIdentity name="Images to Icons" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IMjlmoNK99EtC3SzLMTeDjyY85gv7jAllowIKUYbBBY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="128.ico" size="2913">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wOHNF3UrxIMzRWs/mixecCgYGFP0o9E1fkHUGnxsoqw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="32.ico" size="1817">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6LClaU95YsJW4PiEh+v8PfRA+Ci8q8Zge7F6tyeJFSk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images to Icons.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-95TB4MU\Eng. Omar Abdulaziz" issuerKeyHash="df372b3931806049ab79450a5ce62dddbd074dda" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KdhdN/GE5g4B+A9rjSoJIQp2kI6oIW3gsEEHmcZGjIQ=</DigestValue></Reference></SignedInfo><SignatureValue>oZhI1lXoVbNHn4WZDbxizy4rZZZHHT/vHWrjmYvXwcjKZJgw+WCF2tu1nG09JMSY2CVEt02oDWRJl52b9fM7KxinoaRQJ2V2HEwnDqOAs4idnUhZSz2f2bnQgkUXn9adTceBOXpNdMdZF3pjNXKxrRmfWlFSWuFDHgNgxjGCDQY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>02FGJWhBdVmyYKoyTRHD86jVssYnLiiatHzME3yiRmVAp6wpQwWOFmVrEXWjD8/k77hzalOxwhzeYTnB2K8y1LEm6l7rKSUvDiFVsyWeWn6p10iShoRUpP4cjTCRDKSVkr5dwskLYLryhGG4ybH/TeByY1w+A0V8j3uu6HCQknU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="848c46c6990741b0e06d21a88e90760a21092a8d6b0ff8010ee684f1375dd829" Description="" Url=""><as:assemblyIdentity name="Images to Icons.exe" version="1.0.0.0" publicKeyToken="89e33473a284a078" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-95TB4MU\Eng. Omar Abdulaziz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uw5Fs0jy4/RELLrxGfBaspIzuwa3t7A7FCrall2RO4g=</DigestValue></Reference></SignedInfo><SignatureValue>nDEKmdJNKdSutbPkPIasFGHU08MD55LnG/eOMOrJgumwyOZHaA0Q3AjinhMDa/7zDHAPcRA+uiNeoq+Cuceu7U3NZ5jKQphHs6kQmqF5BpBQkQik7qidDSZPtQo5+c36MhyoafmBkFSMas8hzoWwU15UtdoJtyXKmeQUfSio3no=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>02FGJWhBdVmyYKoyTRHD86jVssYnLiiatHzME3yiRmVAp6wpQwWOFmVrEXWjD8/k77hzalOxwhzeYTnB2K8y1LEm6l7rKSUvDiFVsyWeWn6p10iShoRUpP4cjTCRDKSVkr5dwskLYLryhGG4ybH/TeByY1w+A0V8j3uu6HCQknU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICJTCCAY6gAwIBAgIQa5dv1KxTKppAoStYTcSvEzANBgkqhkiG9w0BAQsFADBRMU8wTQYDVQQDHkYARABFAFMASwBUAE8AUAAtADkANQBUAEIANABNAFUAXABFAG4AZwAuACAATwBtAGEAcgAgAEEAYgBkAHUAbABhAHoAaQB6MB4XDTIzMTAwODIyMDYwOVoXDTI0MTAwODA0MDYwOVowUTFPME0GA1UEAx5GAEQARQBTAEsAVABPAFAALQA5ADUAVABCADQATQBVAFwARQBuAGcALgAgAE8AbQBhAHIAIABBAGIAZAB1AGwAYQB6AGkAejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA02FGJWhBdVmyYKoyTRHD86jVssYnLiiatHzME3yiRmVAp6wpQwWOFmVrEXWjD8/k77hzalOxwhzeYTnB2K8y1LEm6l7rKSUvDiFVsyWeWn6p10iShoRUpP4cjTCRDKSVkr5dwskLYLryhGG4ybH/TeByY1w+A0V8j3uu6HCQknUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA7N1e0LQttH8RJvYTK9HIrxezIJD+NMm2thoEW18t5/3AY1AmnaWyw4yFfvaYq2hLjusXkG/L9fHqJqoEzVWhoeNGtzpFJlYaFsowaBCeJiyzuQ0Eg5eYD3yn6CBYI2u0W5XzpU0Jf0lMcV+Olwn+LBLWJUAnbxt14uKkWr0NnNw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
